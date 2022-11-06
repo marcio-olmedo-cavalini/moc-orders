@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS tb_item (
+  id SERIAL,
+  name VARCHAR(254) NOT NULL,
+  CONSTRAINT pk_item PRIMARY KEY (id)
+);

@@ -1,0 +1,1 @@
+alter table tb_order add column quantity_to_complete integer;

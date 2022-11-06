@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS tb_user (
+  id SERIAL,
+  name VARCHAR(254) NOT NULL,
+  email VARCHAR(100) NOT NULL,
+  CONSTRAINT pk_tuser PRIMARY KEY (id)
+);
