@@ -47,9 +47,6 @@ public class StockMovementController {
         if (!stockMovementService.existsById(stockMovementId)) {
             throw new BusinessException("stock Movement not found to delete!");
         }
-        /* todo
-         *  Regra para quando já existir o item associado a um stock movement e para order, não deixar excluir
-         * */
 
         stockMovementService.delete(stockMovementId);
 
